@@ -12,4 +12,6 @@ ActiveAdmin.register Song do
 #   permitted
 # end
 
+actions :all, except: [:destroy]
+
 end
